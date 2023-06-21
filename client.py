@@ -28,6 +28,10 @@ def rename_columns(df, old_to_new_names):
     renamed_df = df.toDF(*[old_to_new_names.get(c, c) for c in df.columns])
     return renamed_df
 
+@click.command()
+@click.option('--dataset_one_path', type=click.Path(exists=True), help='Path to dataset one CSV file')
+@click.option('--dataset_two_path', type=click.Path(exists=True), help='Path to dataset two CSV file')
+@click.option('--countries', type=str, default="", help='Comma-separated list of countries to filter')
 # Define the function to process the client data
 def process_client_data(dataset_one_path, dataset_two_path, countries):
     # Load the client datasets
@@ -68,28 +72,6 @@ def run_tests():
     
     # Use chispa to perform the test
     chispa.assert_df_equality(result_df, expected_result)
-
-@click.command()
-@click.option('--dataset_one_path', type=click.Path(exists=True), help='Path to dataset one CSV file')
-@click.option('--dataset_two_path', type=click.Path(exists=True), help='Path to dataset two CSV file')
-@click.option('--countries', type=str, default="", help='Comma-separated list of countries to filter')
-def process_data(dataset_one_path, dataset_two_path, countries):
-    countries = countries.split(',') if countries else []
-    
-    result_df = process_client_data(dataset_one_path, dataset_two_path, countries)
-    
-    # Display the result
-    result_df.show()
-
-    # Log an info message
-    logging.info('Starting the data processing...')
-
-    # Save the resulting dataset in the client_data directory
-    output_path = "result_dataset1.csv"
-    result_df.coalesce(1).write.csv(output_path, header=True, mode="overwrite")
-
-    # Run tests
-    run_tests()
 
 if __name__ == "__main__":
     process_data()

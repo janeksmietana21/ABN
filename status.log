@@ -1,0 +1,4468 @@
+DEBUG:py4j.java_gateway:GatewayClient.address is deprecated and will be removed in version 1.0. Use GatewayParameters instead.
+DEBUG:py4j.clientserver:Command to send: A
+c86b9d4d9b0468ceafd6bc2a3308259aec98765b6e976cf3c9e49b00d1da6a8e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.SparkConf
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.api.java.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.api.python.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.ml.python.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.mllib.api.python.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.resource.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.sql.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.sql.api.python.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.sql.hive.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+scala.Tuple2
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: r
+u
+SparkConf
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.SparkConf
+DEBUG:py4j.clientserver:Command to send: i
+org.apache.spark.SparkConf
+bTrue
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro0
+DEBUG:py4j.clientserver:Command to send: c
+o0
+set
+sspark.app.name
+sDataFrame
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro1
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.serializer.objectStreamReset
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: c
+o0
+set
+sspark.serializer.objectStreamReset
+s100
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro2
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.rdd.compress
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: c
+o0
+set
+sspark.rdd.compress
+sTrue
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro3
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.master
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.master
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o0
+get
+sspark.master
+e
+
+DEBUG:py4j.clientserver:Answer received: !yslocal[*]
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o0
+get
+sspark.app.name
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysDataFrame
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.home
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: c
+o0
+getAll
+e
+
+DEBUG:py4j.clientserver:Answer received: !yto4
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i0
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro5
+DEBUG:py4j.clientserver:Command to send: c
+o5
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.rdd.compress
+DEBUG:py4j.clientserver:Command to send: c
+o5
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysTrue
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i1
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro6
+DEBUG:py4j.clientserver:Command to send: c
+o6
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.serializer.objectStreamReset
+DEBUG:py4j.clientserver:Command to send: c
+o6
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys100
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i2
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro7
+DEBUG:py4j.clientserver:Command to send: c
+o7
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.master
+DEBUG:py4j.clientserver:Command to send: c
+o7
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !yslocal[*]
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i3
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro8
+DEBUG:py4j.clientserver:Command to send: c
+o8
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.submit.pyFiles
+DEBUG:py4j.clientserver:Command to send: c
+o8
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro9
+DEBUG:py4j.clientserver:Command to send: c
+o9
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.app.name
+DEBUG:py4j.clientserver:Command to send: c
+o9
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysDataFrame
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i5
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro10
+DEBUG:py4j.clientserver:Command to send: c
+o10
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.submit.deployMode
+DEBUG:py4j.clientserver:Command to send: c
+o10
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysclient
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i6
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro11
+DEBUG:py4j.clientserver:Command to send: c
+o11
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.app.submitTime
+DEBUG:py4j.clientserver:Command to send: c
+o11
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys1687376362714
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i7
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro12
+DEBUG:py4j.clientserver:Command to send: c
+o12
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.ui.showConsoleProgress
+DEBUG:py4j.clientserver:Command to send: c
+o12
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ystrue
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: r
+u
+JavaSparkContext
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.java.JavaSparkContext
+DEBUG:py4j.clientserver:Command to send: i
+org.apache.spark.api.java.JavaSparkContext
+ro0
+e
+
+DEBUG:py4j.clientserver:Command to send: A
+c86b9d4d9b0468ceafd6bc2a3308259aec98765b6e976cf3c9e49b00d1da6a8e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o1
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o2
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o3
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Answer received: !yro13
+DEBUG:py4j.clientserver:Command to send: c
+o13
+sc
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro14
+DEBUG:py4j.clientserver:Command to send: c
+o14
+conf
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro15
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonAccumulatorV2
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonAccumulatorV2
+DEBUG:py4j.clientserver:Command to send: i
+org.apache.spark.api.python.PythonAccumulatorV2
+s127.0.0.1
+i58064
+sc86b9d4d9b0468ceafd6bc2a3308259aec98765b6e976cf3c9e49b00d1da6a8e
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro16
+DEBUG:py4j.clientserver:Command to send: c
+o13
+sc
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro17
+DEBUG:py4j.clientserver:Command to send: c
+o17
+register
+ro16
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+ro13
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+ro13
+e
+
+DEBUG:py4j.clientserver:Answer received: !yL15
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+ro13
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi65536
+DEBUG:py4j.clientserver:Command to send: r
+u
+org
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.SparkFiles
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysC:\\Users\\OEM\\AppData\\Local\\Temp\\spark-b07eb83a-2c30-45a7-b10f-c4969ad7e193\\userFiles-4f3ce030-54ac-4e4e-a7ee-401c4b1665c2
+DEBUG:py4j.clientserver:Command to send: c
+o15
+get
+sspark.submit.pyFiles
+s
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys
+DEBUG:py4j.clientserver:Command to send: r
+u
+org
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.util.Utils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.util.Utils
+getLocalDir
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+o13
+sc
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro18
+DEBUG:py4j.clientserver:Command to send: c
+o18
+conf
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro19
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.util.Utils
+getLocalDir
+ro19
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysC:\\Users\\OEM\\AppData\\Local\\Temp\\spark-b07eb83a-2c30-45a7-b10f-c4969ad7e193
+DEBUG:py4j.clientserver:Command to send: r
+u
+org
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.util.Utils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.util.Utils
+createTempDir
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.util.Utils
+createTempDir
+sC:\\Users\\OEM\\AppData\\Local\\Temp\\spark-b07eb83a-2c30-45a7-b10f-c4969ad7e193
+spyspark
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro20
+DEBUG:py4j.clientserver:Command to send: c
+o20
+getAbsolutePath
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysC:\\Users\\OEM\\AppData\\Local\\Temp\\spark-b07eb83a-2c30-45a7-b10f-c4969ad7e193\\pyspark-51cc06fe-3f9e-443e-b879-cdc4c39b087e
+DEBUG:py4j.clientserver:Command to send: c
+o15
+get
+sspark.python.profile
+sfalse
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysfalse
+DEBUG:py4j.clientserver:Command to send: c
+o15
+get
+sspark.python.profile.memory
+sfalse
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+SparkSession
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.SparkSession
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro21
+DEBUG:py4j.clientserver:Command to send: c
+o21
+isDefined
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+SparkSession
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.SparkSession
+DEBUG:py4j.clientserver:Command to send: c
+o13
+sc
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro22
+DEBUG:py4j.clientserver:Command to send: i
+java.util.HashMap
+e
+
+DEBUG:py4j.clientserver:Answer received: !yao23
+DEBUG:py4j.clientserver:Command to send: c
+o23
+put
+sspark.app.name
+sDataFrame
+e
+
+DEBUG:py4j.clientserver:Answer received: !yn
+DEBUG:py4j.clientserver:Command to send: i
+org.apache.spark.sql.SparkSession
+ro22
+ro23
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro24
+DEBUG:py4j.clientserver:Command to send: r
+u
+SparkSession
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.SparkSession
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setDefaultSession
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.sql.SparkSession
+setDefaultSession
+ro24
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: r
+u
+SparkSession
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.SparkSession
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setActiveSession
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.sql.SparkSession
+setActiveSession
+ro24
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: c
+o24
+read
+e
+
+DEBUG:py4j.clientserver:Command to send: m
+d
+o23
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Answer received: !yro25
+DEBUG:py4j.clientserver:Command to send: c
+o25
+option
+sheader
+strue
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro26
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo27
+DEBUG:py4j.clientserver:Command to send: c
+o27
+add
+sdataset_one.csv
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro27
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro28
+DEBUG:py4j.clientserver:Command to send: c
+o26
+csv
+ro28
+e
+
+DEBUG:py4j.clientserver:Command to send: m
+d
+o27
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Answer received: !yro29
+DEBUG:py4j.clientserver:Command to send: c
+o24
+read
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro30
+DEBUG:py4j.clientserver:Command to send: c
+o30
+option
+sheader
+strue
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro31
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo32
+DEBUG:py4j.clientserver:Command to send: c
+o32
+add
+sdataset_two.csv
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro32
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro33
+DEBUG:py4j.clientserver:Command to send: c
+o31
+csv
+ro33
+e
+
+DEBUG:py4j.clientserver:Command to send: m
+d
+o32
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Answer received: !yro34
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo35
+DEBUG:py4j.clientserver:Command to send: c
+o35
+add
+sfirst_name
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o35
+add
+slast_name
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro35
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro36
+DEBUG:py4j.clientserver:Command to send: c
+o29
+drop
+ro36
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro37
+DEBUG:py4j.clientserver:Command to send: c
+o37
+schema
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro38
+DEBUG:py4j.clientserver:Command to send: c
+o38
+json
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys{"type":"struct","fields":[{"name":"id","type":"string","nullable":true,"metadata":{}},{"name":"email","type":"string","nullable":true,"metadata":{}},{"name":"country","type":"string","nullable":true,"metadata":{}}]}
+DEBUG:py4j.clientserver:Command to send: c
+o37
+apply
+scountry
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro39
+DEBUG:py4j.clientserver:Command to send: r
+u
+functions
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.functions
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.sql.functions
+lit
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.sql.functions
+lit
+sUnited Kingdom
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro40
+DEBUG:py4j.clientserver:Command to send: r
+u
+functions
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.functions
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.sql.functions
+lit
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.sql.functions
+lit
+sNetherlands
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro41
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo42
+DEBUG:py4j.clientserver:Command to send: c
+o42
+add
+ro40
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o42
+add
+ro41
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro42
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro43
+DEBUG:py4j.clientserver:Command to send: c
+o39
+isin
+ro43
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro44
+DEBUG:py4j.clientserver:Command to send: c
+o37
+filter
+ro44
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro45
+DEBUG:py4j.clientserver:Command to send: c
+o45
+withColumnRenamed
+sid
+sclient_identifier
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro46
+INFO:root:client filtered by countries
+DEBUG:py4j.clientserver:Command to send: c
+o34
+withColumnRenamed
+scc_t
+scredit_card_type
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro47
+DEBUG:py4j.clientserver:Command to send: c
+o47
+withColumnRenamed
+sbtc_a
+sbitcoin_address
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro48
+INFO:root:rename columns
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo49
+DEBUG:py4j.clientserver:Command to send: c
+o49
+add
+scc_n
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro49
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro50
+DEBUG:py4j.clientserver:Command to send: c
+o48
+drop
+ro50
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro51
+DEBUG:py4j.clientserver:Command to send: c
+o46
+schema
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro52
+DEBUG:py4j.clientserver:Command to send: c
+o52
+json
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys{"type":"struct","fields":[{"name":"client_identifier","type":"string","nullable":true,"metadata":{}},{"name":"email","type":"string","nullable":true,"metadata":{}},{"name":"country","type":"string","nullable":true,"metadata":{}}]}
+DEBUG:py4j.clientserver:Command to send: c
+o46
+apply
+sclient_identifier
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro53
+DEBUG:py4j.clientserver:Command to send: c
+o34
+schema
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro54
+DEBUG:py4j.clientserver:Command to send: c
+o54
+json
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys{"type":"struct","fields":[{"name":"id","type":"string","nullable":true,"metadata":{}},{"name":"btc_a","type":"string","nullable":true,"metadata":{}},{"name":"cc_t","type":"string","nullable":true,"metadata":{}},{"name":"cc_n","type":"string","nullable":true,"metadata":{}}]}
+DEBUG:py4j.clientserver:Command to send: c
+o34
+apply
+sid
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro55
+DEBUG:py4j.clientserver:Command to send: c
+o53
+equalTo
+ro55
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro56
+DEBUG:py4j.clientserver:Command to send: c
+o46
+join
+ro51
+ro56
+sinner
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro57
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo58
+DEBUG:py4j.clientserver:Command to send: c
+o58
+add
+sid
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro58
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro59
+DEBUG:py4j.clientserver:Command to send: c
+o57
+drop
+ro59
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro60
+INFO:root:Join Done!
+DEBUG:py4j.clientserver:Command to send: c
+o60
+showString
+i20
+i0
+bFalse
+e
+
+DEBUG:py4j.clientserver:Command to send: m
+d
+o35
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o42
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o49
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o0
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o5
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o6
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o7
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o8
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o9
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o10
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o11
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o12
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o14
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o17
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o18
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o19
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o20
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o21
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o22
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o25
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o26
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o28
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o30
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o31
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o33
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o36
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o38
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o39
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o40
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o41
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o43
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o44
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o45
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o47
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o48
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o50
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o52
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o58
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Answer received: !ys+-----------------+--------------------------+--------------+----------------------------------+-------------------------+\n|client_identifier|email                     |country       |bitcoin_address                   |credit_card_type         |\n+-----------------+--------------------------+--------------+----------------------------------+-------------------------+\n|18               |rdrinanh@odnoklassniki.ru |United Kingdom|1ErM8yuF3ytzzxLy1uPvQuRveLBygxN15x|china-unionpay           |\n|32               |wbamfordv@t-online.de     |United Kingdom|12sxmYnPcADAXw1YkxdapRsft2PwHZke7A|maestro                  |\n|33               |swestallw@blinklist.com   |United Kingdom|1GZ7QB7GUFSWnkBHmsj4C4EZYMWni6BVn4|mastercard               |\n|34               |erosengrenx@usatoday.com  |United Kingdom|12o8zrHx6snCPbtkoD9im4ozBtNkHRjeRV|visa-electron            |\n|36               |dbuckthorpz@tmall.com     |Netherlands   |15X53Z9B9jUNrvFpbr7D554uSc5RL7Pnkg|diners-club-international|\n|62               |bbarham1p@wisc.edu        |Netherlands   |16qpYVt6YAAx4JYjzbA8SwTUHoTyB4twRF|jcb                      |\n|67               |lbeavors1u@technorati.com |United Kingdom|12ya1ED93ApPBQRSCuqiehip8KfPEzXYaj|bankcard                 |\n|70               |fdresse1x@bloglines.com   |United Kingdom|1F8zXTEaf4AFpztMNzQZfo5NUreptaArTD|mastercard               |\n|91               |aeplate2i@webeden.co.uk   |United Kingdom|19MZSy1H8S4SaXsmSc3n7AaL2GxQkQkEZx|diners-club-carte-blanche|\n|105              |linfante2w@telegraph.co.uk|Netherlands   |13j6FKzrLgumLUqeYH4baeY5qZgiwGW5UC|jcb                      |\n|108              |rpartkya2z@cdc.gov        |Netherlands   |1RcsodKknm8thkCL6F4Vcmo7f4A7r6ydj |maestro                  |\n|109              |mdory30@uiuc.edu          |Netherlands   |1HxV2jkyM3PXbsH4qGsVX3hwcAb4SMi4AD|jcb                      |\n|110              |rswindle31@tmall.com      |Netherlands   |15cRJ4mzZd4Vgd33xbVjEtYw9c6f1WfGkC|china-unionpay           |\n|124              |wdarco3f@geocities.com    |Netherlands   |1CB7AdhTFBXmxuABm58yKmCmsvVqDjT9P1|maestro                  |\n|128              |vnapthine3j@ning.com      |Netherlands   |16DbYq1KR8DVSQu5E9WU9ohuofBm5AHB2Q|diners-club-enroute      |\n|165              |hheinecke4k@altervista.org|Netherlands   |1KgbP1KXt5xs2sBLudwt7SZM14NZXN2yNd|jcb                      |\n|177              |awissbey4w@geocities.jp   |United Kingdom|1AJzqEgbbFh2TNLFZrWp1XgCY16gQQ3pBe|americanexpress          |\n|189              |etsar58@ovh.net           |Netherlands   |1PktCHyic9G4aZu15Dd3N1PUf45wW4MmFs|jcb                      |\n|194              |igreated5d@live.com       |Netherlands   |12KTfvJwTfnJn3dFtZ8KaLycn5noXetTFo|jcb                      |\n|197              |pvolette5g@ask.com        |United Kingdom|1Q6UV84patYXfzEdAabyanzRe4cpNHdfkC|diners-club-enroute      |\n+-----------------+--------------------------+--------------+----------------------------------+-------------------------+\nonly showing top 20 rows\n
+INFO:py4j.clientserver:Closing down clientserver connection
+DEBUG:py4j.java_gateway:GatewayClient.address is deprecated and will be removed in version 1.0. Use GatewayParameters instead.
+DEBUG:py4j.clientserver:Command to send: A
+901d976d25813512edf56a14647e0963a7efd2c9d325d2846b1d11689d290cbd
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.SparkConf
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.api.java.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.api.python.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.ml.python.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.mllib.api.python.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.resource.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.sql.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.sql.api.python.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+org.apache.spark.sql.hive.*
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: j
+i
+rj
+scala.Tuple2
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: r
+u
+SparkConf
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.SparkConf
+DEBUG:py4j.clientserver:Command to send: i
+org.apache.spark.SparkConf
+bTrue
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro0
+DEBUG:py4j.clientserver:Command to send: c
+o0
+set
+sspark.app.name
+sDataFrame
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro1
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.serializer.objectStreamReset
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: c
+o0
+set
+sspark.serializer.objectStreamReset
+s100
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro2
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.rdd.compress
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: c
+o0
+set
+sspark.rdd.compress
+sTrue
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro3
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.master
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.master
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o0
+get
+sspark.master
+e
+
+DEBUG:py4j.clientserver:Answer received: !yslocal[*]
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.app.name
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o0
+get
+sspark.app.name
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysDataFrame
+DEBUG:py4j.clientserver:Command to send: c
+o0
+contains
+sspark.home
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: c
+o0
+getAll
+e
+
+DEBUG:py4j.clientserver:Answer received: !yto4
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i0
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro5
+DEBUG:py4j.clientserver:Command to send: c
+o5
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.rdd.compress
+DEBUG:py4j.clientserver:Command to send: c
+o5
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysTrue
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i1
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro6
+DEBUG:py4j.clientserver:Command to send: c
+o6
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.serializer.objectStreamReset
+DEBUG:py4j.clientserver:Command to send: c
+o6
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys100
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i2
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro7
+DEBUG:py4j.clientserver:Command to send: c
+o7
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.master
+DEBUG:py4j.clientserver:Command to send: c
+o7
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !yslocal[*]
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i3
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro8
+DEBUG:py4j.clientserver:Command to send: c
+o8
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.submit.pyFiles
+DEBUG:py4j.clientserver:Command to send: c
+o8
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro9
+DEBUG:py4j.clientserver:Command to send: c
+o9
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.app.name
+DEBUG:py4j.clientserver:Command to send: c
+o9
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysDataFrame
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i5
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro10
+DEBUG:py4j.clientserver:Command to send: c
+o10
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.submit.deployMode
+DEBUG:py4j.clientserver:Command to send: c
+o10
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysclient
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i6
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro11
+DEBUG:py4j.clientserver:Command to send: c
+o11
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.app.submitTime
+DEBUG:py4j.clientserver:Command to send: c
+o11
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys1687381329341
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: a
+g
+o4
+i7
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro12
+DEBUG:py4j.clientserver:Command to send: c
+o12
+_1
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysspark.ui.showConsoleProgress
+DEBUG:py4j.clientserver:Command to send: c
+o12
+_2
+e
+
+DEBUG:py4j.clientserver:Answer received: !ystrue
+DEBUG:py4j.clientserver:Command to send: a
+e
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi8
+DEBUG:py4j.clientserver:Command to send: r
+u
+JavaSparkContext
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.java.JavaSparkContext
+DEBUG:py4j.clientserver:Command to send: i
+org.apache.spark.api.java.JavaSparkContext
+ro0
+e
+
+DEBUG:py4j.clientserver:Command to send: A
+901d976d25813512edf56a14647e0963a7efd2c9d325d2846b1d11689d290cbd
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o1
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o2
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o3
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o4
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Answer received: !yro13
+DEBUG:py4j.clientserver:Command to send: c
+o13
+sc
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro14
+DEBUG:py4j.clientserver:Command to send: c
+o14
+conf
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro15
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonAccumulatorV2
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonAccumulatorV2
+DEBUG:py4j.clientserver:Command to send: i
+org.apache.spark.api.python.PythonAccumulatorV2
+s127.0.0.1
+i58808
+s901d976d25813512edf56a14647e0963a7efd2c9d325d2846b1d11689d290cbd
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro16
+DEBUG:py4j.clientserver:Command to send: c
+o13
+sc
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro17
+DEBUG:py4j.clientserver:Command to send: c
+o17
+register
+ro16
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+isEncryptionEnabled
+ro13
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getPythonAuthSocketTimeout
+ro13
+e
+
+DEBUG:py4j.clientserver:Answer received: !yL15
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+getSparkBufferSize
+ro13
+e
+
+DEBUG:py4j.clientserver:Answer received: !yi65536
+DEBUG:py4j.clientserver:Command to send: r
+u
+org
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.SparkFiles
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.SparkFiles
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.SparkFiles
+getRootDirectory
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysC:\\Users\\OEM\\AppData\\Local\\Temp\\spark-071f5c43-4688-424d-87b6-e53a084bb79a\\userFiles-d8ee801a-b94f-4309-9fec-4b36b91625c6
+DEBUG:py4j.clientserver:Command to send: c
+o15
+get
+sspark.submit.pyFiles
+s
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys
+DEBUG:py4j.clientserver:Command to send: r
+u
+org
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.util.Utils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.util.Utils
+getLocalDir
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+o13
+sc
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro18
+DEBUG:py4j.clientserver:Command to send: c
+o18
+conf
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro19
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.util.Utils
+getLocalDir
+ro19
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysC:\\Users\\OEM\\AppData\\Local\\Temp\\spark-071f5c43-4688-424d-87b6-e53a084bb79a
+DEBUG:py4j.clientserver:Command to send: r
+u
+org
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.util.Utils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.util.Utils
+createTempDir
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.util.Utils
+createTempDir
+sC:\\Users\\OEM\\AppData\\Local\\Temp\\spark-071f5c43-4688-424d-87b6-e53a084bb79a
+spyspark
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro20
+DEBUG:py4j.clientserver:Command to send: c
+o20
+getAbsolutePath
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysC:\\Users\\OEM\\AppData\\Local\\Temp\\spark-071f5c43-4688-424d-87b6-e53a084bb79a\\pyspark-50adce12-503f-414f-9bdb-0fc465741c48
+DEBUG:py4j.clientserver:Command to send: c
+o15
+get
+sspark.python.profile
+sfalse
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysfalse
+DEBUG:py4j.clientserver:Command to send: c
+o15
+get
+sspark.python.profile.memory
+sfalse
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+SparkSession
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.SparkSession
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.sql.SparkSession
+getDefaultSession
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro21
+DEBUG:py4j.clientserver:Command to send: c
+o21
+isDefined
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+SparkSession
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.SparkSession
+DEBUG:py4j.clientserver:Command to send: c
+o13
+sc
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro22
+DEBUG:py4j.clientserver:Command to send: i
+java.util.HashMap
+e
+
+DEBUG:py4j.clientserver:Answer received: !yao23
+DEBUG:py4j.clientserver:Command to send: c
+o23
+put
+sspark.app.name
+sDataFrame
+e
+
+DEBUG:py4j.clientserver:Answer received: !yn
+DEBUG:py4j.clientserver:Command to send: i
+org.apache.spark.sql.SparkSession
+ro22
+ro23
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro24
+DEBUG:py4j.clientserver:Command to send: r
+u
+SparkSession
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.SparkSession
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setDefaultSession
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.sql.SparkSession
+setDefaultSession
+ro24
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: r
+u
+SparkSession
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.SparkSession
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.sql.SparkSession
+setActiveSession
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.sql.SparkSession
+setActiveSession
+ro24
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: c
+o24
+read
+e
+
+DEBUG:py4j.clientserver:Command to send: m
+d
+o23
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Answer received: !yro25
+DEBUG:py4j.clientserver:Command to send: c
+o25
+option
+sheader
+strue
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro26
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo27
+DEBUG:py4j.clientserver:Command to send: c
+o27
+add
+sdataset_one.csv
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro27
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro28
+DEBUG:py4j.clientserver:Command to send: c
+o26
+csv
+ro28
+e
+
+DEBUG:py4j.clientserver:Command to send: m
+d
+o27
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Answer received: !yro29
+DEBUG:py4j.clientserver:Command to send: c
+o24
+read
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro30
+DEBUG:py4j.clientserver:Command to send: c
+o30
+option
+sheader
+strue
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro31
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo32
+DEBUG:py4j.clientserver:Command to send: c
+o32
+add
+sdataset_two.csv
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro32
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro33
+DEBUG:py4j.clientserver:Command to send: c
+o31
+csv
+ro33
+e
+
+DEBUG:py4j.clientserver:Command to send: m
+d
+o32
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Answer received: !yro34
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo35
+DEBUG:py4j.clientserver:Command to send: c
+o35
+add
+sfirst_name
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o35
+add
+slast_name
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro35
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro36
+DEBUG:py4j.clientserver:Command to send: c
+o29
+drop
+ro36
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro37
+DEBUG:py4j.clientserver:Command to send: c
+o37
+schema
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro38
+DEBUG:py4j.clientserver:Command to send: c
+o38
+json
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys{"type":"struct","fields":[{"name":"id","type":"string","nullable":true,"metadata":{}},{"name":"email","type":"string","nullable":true,"metadata":{}},{"name":"country","type":"string","nullable":true,"metadata":{}}]}
+DEBUG:py4j.clientserver:Command to send: c
+o37
+apply
+scountry
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro39
+DEBUG:py4j.clientserver:Command to send: r
+u
+functions
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.functions
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.sql.functions
+lit
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.sql.functions
+lit
+sUnited Kingdom
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro40
+DEBUG:py4j.clientserver:Command to send: r
+u
+functions
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.sql.functions
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.sql.functions
+lit
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.sql.functions
+lit
+sNetherlands
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro41
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo42
+DEBUG:py4j.clientserver:Command to send: c
+o42
+add
+ro40
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+o42
+add
+ro41
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro42
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro43
+DEBUG:py4j.clientserver:Command to send: c
+o39
+isin
+ro43
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro44
+DEBUG:py4j.clientserver:Command to send: c
+o37
+filter
+ro44
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro45
+DEBUG:py4j.clientserver:Command to send: c
+o45
+withColumnRenamed
+sid
+sclient_identifier
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro46
+INFO:root:client filtered by countries
+DEBUG:py4j.clientserver:Command to send: c
+o34
+withColumnRenamed
+scc_t
+scredit_card_type
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro47
+DEBUG:py4j.clientserver:Command to send: c
+o47
+withColumnRenamed
+sbtc_a
+sbitcoin_address
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro48
+INFO:root:rename columns
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo49
+DEBUG:py4j.clientserver:Command to send: c
+o49
+add
+scc_n
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro49
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro50
+DEBUG:py4j.clientserver:Command to send: c
+o48
+drop
+ro50
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro51
+DEBUG:py4j.clientserver:Command to send: c
+o46
+schema
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro52
+DEBUG:py4j.clientserver:Command to send: c
+o52
+json
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys{"type":"struct","fields":[{"name":"client_identifier","type":"string","nullable":true,"metadata":{}},{"name":"email","type":"string","nullable":true,"metadata":{}},{"name":"country","type":"string","nullable":true,"metadata":{}}]}
+DEBUG:py4j.clientserver:Command to send: c
+o46
+apply
+sclient_identifier
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro53
+DEBUG:py4j.clientserver:Command to send: c
+o34
+schema
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro54
+DEBUG:py4j.clientserver:Command to send: c
+o54
+json
+e
+
+DEBUG:py4j.clientserver:Answer received: !ys{"type":"struct","fields":[{"name":"id","type":"string","nullable":true,"metadata":{}},{"name":"btc_a","type":"string","nullable":true,"metadata":{}},{"name":"cc_t","type":"string","nullable":true,"metadata":{}},{"name":"cc_n","type":"string","nullable":true,"metadata":{}}]}
+DEBUG:py4j.clientserver:Command to send: c
+o34
+apply
+sid
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro55
+DEBUG:py4j.clientserver:Command to send: c
+o53
+equalTo
+ro55
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro56
+DEBUG:py4j.clientserver:Command to send: c
+o46
+join
+ro51
+ro56
+sinner
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro57
+DEBUG:py4j.clientserver:Command to send: r
+u
+PythonUtils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.api.python.PythonUtils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.api.python.PythonUtils
+toSeq
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: i
+java.util.ArrayList
+e
+
+DEBUG:py4j.clientserver:Answer received: !ylo58
+DEBUG:py4j.clientserver:Command to send: c
+o58
+add
+sid
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybtrue
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.api.python.PythonUtils
+toSeq
+ro58
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro59
+DEBUG:py4j.clientserver:Command to send: c
+o57
+drop
+ro59
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro60
+INFO:root:Join Done!
+DEBUG:py4j.clientserver:Command to send: c
+o60
+write
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro61
+DEBUG:py4j.clientserver:Command to send: c
+o61
+format
+scsv
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro62
+DEBUG:py4j.clientserver:Command to send: c
+o62
+mode
+soverwrite
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro63
+DEBUG:py4j.clientserver:Command to send: c
+o63
+save
+s/tmp/spark_output/zipcodes
+e
+
+DEBUG:py4j.clientserver:Command to send: m
+d
+o35
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o42
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o49
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o0
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o5
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o6
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o7
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o8
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o9
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o10
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o11
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o12
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o14
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o17
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o18
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o19
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o20
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o21
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o22
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o25
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o26
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o28
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o30
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o31
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o33
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o36
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o38
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o39
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o40
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o41
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o43
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o44
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o45
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o47
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o48
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o50
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o52
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Command to send: m
+d
+o58
+e
+
+DEBUG:py4j.clientserver:Answer received: !yv
+DEBUG:py4j.clientserver:Answer received: !xro64
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.catalyst.parser.ParseException
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.AnalysisException
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.streaming.StreamingQueryException
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.execution.QueryExecutionException
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.NumberFormatException
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.IllegalArgumentException
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.ArithmeticException
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.ArrayIndexOutOfBoundsException
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.time.DateTimeException
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkRuntimeException
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkUpgradeException
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: c
+o64
+getCause
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro65
+DEBUG:py4j.clientserver:Command to send: r
+u
+org
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.util.Utils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.util.Utils
+exceptionString
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.util.Utils
+exceptionString
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysjava.lang.RuntimeException: java.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems\r\n	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:735)\r\n	at org.apache.hadoop.util.Shell.getSetPermissionCommand(Shell.java:270)\r\n	at org.apache.hadoop.util.Shell.getSetPermissionCommand(Shell.java:286)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.setPermission(RawLocalFileSystem.java:978)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkOneDirWithMode(RawLocalFileSystem.java:660)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirsWithOptionalPermission(RawLocalFileSystem.java:700)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirs(RawLocalFileSystem.java:672)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirsWithOptionalPermission(RawLocalFileSystem.java:699)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirs(RawLocalFileSystem.java:672)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirsWithOptionalPermission(RawLocalFileSystem.java:699)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirs(RawLocalFileSystem.java:672)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirsWithOptionalPermission(RawLocalFileSystem.java:699)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirs(RawLocalFileSystem.java:672)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirsWithOptionalPermission(RawLocalFileSystem.java:699)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirs(RawLocalFileSystem.java:672)\r\n	at org.apache.hadoop.fs.ChecksumFileSystem.mkdirs(ChecksumFileSystem.java:788)\r\n	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:356)\r\n	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.setupJob(HadoopMapReduceCommitProtocol.scala:188)\r\n	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:269)\r\n	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:304)\r\n	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:190)\r\n	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:190)\r\n	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)\r\n	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)\r\n	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)\r\n	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:354)\r\n	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.withFinalPlanUpdate(AdaptiveSparkPlanExec.scala:382)\r\n	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.executeCollect(AdaptiveSparkPlanExec.scala:354)\r\n	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:98)\r\n	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:118)\r\n	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)\r\n	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)\r\n	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)\r\n	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)\r\n	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)\r\n	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:94)\r\n	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)\r\n	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)\r\n	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)\r\n	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)\r\n	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)\r\n	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)\r\n	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)\r\n	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)\r\n	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:488)\r\n	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:94)\r\n	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:81)\r\n	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:79)\r\n	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:133)\r\n	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:856)\r\n	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:387)\r\n	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:360)\r\n	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n	at java.lang.reflect.Method.invoke(Unknown Source)\r\n	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)\r\n	at py4j.Gateway.invoke(Gateway.java:282)\r\n	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n	at py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)\r\n	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems\r\n	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)\r\n	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)\r\n	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)\r\n	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)\r\n	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDurationHelper(Configuration.java:1907)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1867)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1840)\r\n	at org.apache.hadoop.util.ShutdownHookManager.getShutdownTimeout(ShutdownHookManager.java:183)\r\n	at org.apache.hadoop.util.ShutdownHookManager$HookEntry.<init>(ShutdownHookManager.java:207)\r\n	at org.apache.hadoop.util.ShutdownHookManager.addShutdownHook(ShutdownHookManager.java:304)\r\n	at org.apache.spark.util.SparkShutdownHookManager.install(ShutdownHookManager.scala:181)\r\n	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks$lzycompute(ShutdownHookManager.scala:50)\r\n	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks(ShutdownHookManager.scala:48)\r\n	at org.apache.spark.util.ShutdownHookManager$.addShutdownHook(ShutdownHookManager.scala:153)\r\n	at org.apache.spark.util.ShutdownHookManager$.<init>(ShutdownHookManager.scala:58)\r\n	at org.apache.spark.util.ShutdownHookManager$.<clinit>(ShutdownHookManager.scala)\r\n	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:341)\r\n	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:331)\r\n	at org.apache.spark.deploy.SparkSubmit.prepareSubmitEnvironment(SparkSubmit.scala:370)\r\n	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:955)\r\n	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:192)\r\n	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:215)\r\n	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91)\r\n	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1111)\r\n	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1120)\r\n	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)\r\nCaused by: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.\r\n	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:467)\r\n	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)\r\n	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)\r\n	... 23 more\r\n
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.api.python.PythonException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: c
+o64
+toString
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysjava.lang.RuntimeException: java.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.catalyst.parser.ParseException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.AnalysisException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.streaming.StreamingQueryException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.execution.QueryExecutionException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.NumberFormatException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.IllegalArgumentException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.ArithmeticException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.ArrayIndexOutOfBoundsException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.time.DateTimeException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkRuntimeException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkUpgradeException
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: c
+o65
+getCause
+e
+
+DEBUG:py4j.clientserver:Answer received: !yro66
+DEBUG:py4j.clientserver:Command to send: r
+u
+org
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.util.Utils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.util.Utils
+exceptionString
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.util.Utils
+exceptionString
+ro65
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysjava.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems\r\n	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)\r\n	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)\r\n	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)\r\n	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)\r\n	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDurationHelper(Configuration.java:1907)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1867)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1840)\r\n	at org.apache.hadoop.util.ShutdownHookManager.getShutdownTimeout(ShutdownHookManager.java:183)\r\n	at org.apache.hadoop.util.ShutdownHookManager$HookEntry.<init>(ShutdownHookManager.java:207)\r\n	at org.apache.hadoop.util.ShutdownHookManager.addShutdownHook(ShutdownHookManager.java:304)\r\n	at org.apache.spark.util.SparkShutdownHookManager.install(ShutdownHookManager.scala:181)\r\n	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks$lzycompute(ShutdownHookManager.scala:50)\r\n	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks(ShutdownHookManager.scala:48)\r\n	at org.apache.spark.util.ShutdownHookManager$.addShutdownHook(ShutdownHookManager.scala:153)\r\n	at org.apache.spark.util.ShutdownHookManager$.<init>(ShutdownHookManager.scala:58)\r\n	at org.apache.spark.util.ShutdownHookManager$.<clinit>(ShutdownHookManager.scala)\r\n	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:341)\r\n	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:331)\r\n	at org.apache.spark.deploy.SparkSubmit.prepareSubmitEnvironment(SparkSubmit.scala:370)\r\n	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:955)\r\n	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:192)\r\n	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:215)\r\n	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91)\r\n	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1111)\r\n	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1120)\r\n	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)\r\nCaused by: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.\r\n	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:467)\r\n	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)\r\n	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)\r\n	... 23 more\r\n
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.api.python.PythonException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: c
+o65
+toString
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysjava.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.catalyst.parser.ParseException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.AnalysisException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.streaming.StreamingQueryException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.sql.execution.QueryExecutionException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.NumberFormatException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.IllegalArgumentException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.ArithmeticException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.lang.ArrayIndexOutOfBoundsException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sjava.time.DateTimeException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkRuntimeException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+py4j.reflection.TypeUtil
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycpy4j.reflection.TypeUtil
+DEBUG:py4j.clientserver:Command to send: r
+m
+py4j.reflection.TypeUtil
+isInstanceOf
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:py4j.reflection.TypeUtil
+isInstanceOf
+sorg.apache.spark.SparkUpgradeException
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ybfalse
+DEBUG:py4j.clientserver:Command to send: c
+o66
+getCause
+e
+
+DEBUG:py4j.clientserver:Answer received: !yn
+DEBUG:py4j.clientserver:Command to send: r
+u
+org
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !yp
+DEBUG:py4j.clientserver:Command to send: r
+u
+org.apache.spark.util.Utils
+rj
+e
+
+DEBUG:py4j.clientserver:Answer received: !ycorg.apache.spark.util.Utils
+DEBUG:py4j.clientserver:Command to send: r
+m
+org.apache.spark.util.Utils
+exceptionString
+e
+
+DEBUG:py4j.clientserver:Answer received: !ym
+DEBUG:py4j.clientserver:Command to send: c
+z:org.apache.spark.util.Utils
+exceptionString
+ro66
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysjava.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.\r\n	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:467)\r\n	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)\r\n	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)\r\n	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDurationHelper(Configuration.java:1907)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1867)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1840)\r\n	at org.apache.hadoop.util.ShutdownHookManager.getShutdownTimeout(ShutdownHookManager.java:183)\r\n	at org.apache.hadoop.util.ShutdownHookManager$HookEntry.<init>(ShutdownHookManager.java:207)\r\n	at org.apache.hadoop.util.ShutdownHookManager.addShutdownHook(ShutdownHookManager.java:304)\r\n	at org.apache.spark.util.SparkShutdownHookManager.install(ShutdownHookManager.scala:181)\r\n	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks$lzycompute(ShutdownHookManager.scala:50)\r\n	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks(ShutdownHookManager.scala:48)\r\n	at org.apache.spark.util.ShutdownHookManager$.addShutdownHook(ShutdownHookManager.scala:153)\r\n	at org.apache.spark.util.ShutdownHookManager$.<init>(ShutdownHookManager.scala:58)\r\n	at org.apache.spark.util.ShutdownHookManager$.<clinit>(ShutdownHookManager.scala)\r\n	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:341)\r\n	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:331)\r\n	at org.apache.spark.deploy.SparkSubmit.prepareSubmitEnvironment(SparkSubmit.scala:370)\r\n	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:955)\r\n	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:192)\r\n	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:215)\r\n	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91)\r\n	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1111)\r\n	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1120)\r\n	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)\r\n
+DEBUG:py4j.clientserver:Command to send: c
+o66
+toString
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysjava.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.
+DEBUG:py4j.clientserver:Command to send: p
+ro64
+e
+
+DEBUG:py4j.clientserver:Answer received: !ysjava.lang.RuntimeException: java.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems\r\n	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:735)\r\n	at org.apache.hadoop.util.Shell.getSetPermissionCommand(Shell.java:270)\r\n	at org.apache.hadoop.util.Shell.getSetPermissionCommand(Shell.java:286)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.setPermission(RawLocalFileSystem.java:978)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkOneDirWithMode(RawLocalFileSystem.java:660)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirsWithOptionalPermission(RawLocalFileSystem.java:700)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirs(RawLocalFileSystem.java:672)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirsWithOptionalPermission(RawLocalFileSystem.java:699)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirs(RawLocalFileSystem.java:672)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirsWithOptionalPermission(RawLocalFileSystem.java:699)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirs(RawLocalFileSystem.java:672)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirsWithOptionalPermission(RawLocalFileSystem.java:699)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirs(RawLocalFileSystem.java:672)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirsWithOptionalPermission(RawLocalFileSystem.java:699)\r\n	at org.apache.hadoop.fs.RawLocalFileSystem.mkdirs(RawLocalFileSystem.java:672)\r\n	at org.apache.hadoop.fs.ChecksumFileSystem.mkdirs(ChecksumFileSystem.java:788)\r\n	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:356)\r\n	at org.apache.spark.internal.io.HadoopMapReduceCommitProtocol.setupJob(HadoopMapReduceCommitProtocol.scala:188)\r\n	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.writeAndCommit(FileFormatWriter.scala:269)\r\n	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.executeWrite(FileFormatWriter.scala:304)\r\n	at org.apache.spark.sql.execution.datasources.FileFormatWriter$.write(FileFormatWriter.scala:190)\r\n	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:190)\r\n	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)\r\n	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)\r\n	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)\r\n	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.$anonfun$executeCollect$1(AdaptiveSparkPlanExec.scala:354)\r\n	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.withFinalPlanUpdate(AdaptiveSparkPlanExec.scala:382)\r\n	at org.apache.spark.sql.execution.adaptive.AdaptiveSparkPlanExec.executeCollect(AdaptiveSparkPlanExec.scala:354)\r\n	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:98)\r\n	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:118)\r\n	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)\r\n	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)\r\n	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)\r\n	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)\r\n	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)\r\n	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:94)\r\n	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)\r\n	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)\r\n	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)\r\n	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)\r\n	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)\r\n	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)\r\n	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)\r\n	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)\r\n	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:488)\r\n	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:94)\r\n	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:81)\r\n	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:79)\r\n	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:133)\r\n	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:856)\r\n	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:387)\r\n	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:360)\r\n	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n	at java.lang.reflect.Method.invoke(Unknown Source)\r\n	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)\r\n	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)\r\n	at py4j.Gateway.invoke(Gateway.java:282)\r\n	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)\r\n	at py4j.commands.CallCommand.execute(CallCommand.java:79)\r\n	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)\r\n	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)\r\n	at java.lang.Thread.run(Unknown Source)\r\nCaused by: java.io.FileNotFoundException: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset. -see https://wiki.apache.org/hadoop/WindowsProblems\r\n	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)\r\n	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)\r\n	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)\r\n	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)\r\n	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDurationHelper(Configuration.java:1907)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1867)\r\n	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1840)\r\n	at org.apache.hadoop.util.ShutdownHookManager.getShutdownTimeout(ShutdownHookManager.java:183)\r\n	at org.apache.hadoop.util.ShutdownHookManager$HookEntry.<init>(ShutdownHookManager.java:207)\r\n	at org.apache.hadoop.util.ShutdownHookManager.addShutdownHook(ShutdownHookManager.java:304)\r\n	at org.apache.spark.util.SparkShutdownHookManager.install(ShutdownHookManager.scala:181)\r\n	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks$lzycompute(ShutdownHookManager.scala:50)\r\n	at org.apache.spark.util.ShutdownHookManager$.shutdownHooks(ShutdownHookManager.scala:48)\r\n	at org.apache.spark.util.ShutdownHookManager$.addShutdownHook(ShutdownHookManager.scala:153)\r\n	at org.apache.spark.util.ShutdownHookManager$.<init>(ShutdownHookManager.scala:58)\r\n	at org.apache.spark.util.ShutdownHookManager$.<clinit>(ShutdownHookManager.scala)\r\n	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:341)\r\n	at org.apache.spark.util.Utils$.createTempDir(Utils.scala:331)\r\n	at org.apache.spark.deploy.SparkSubmit.prepareSubmitEnvironment(SparkSubmit.scala:370)\r\n	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:955)\r\n	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:192)\r\n	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:215)\r\n	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91)\r\n	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1111)\r\n	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1120)\r\n	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)\r\nCaused by: java.io.FileNotFoundException: HADOOP_HOME and hadoop.home.dir are unset.\r\n	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:467)\r\n	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)\r\n	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)\r\n	... 23 more\r\n
+INFO:py4j.clientserver:Closing down clientserver connection

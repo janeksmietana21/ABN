@@ -6,10 +6,10 @@ from pyspark.sql.functions import col
 import logging
 
 # Import chispa for Spark tests
-import chispa
+# import chispa
 
 # Import Click for command-line interface
-import click
+# import click
 
 # Set the logging configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -27,21 +27,25 @@ def rename_columns(df, old_to_new_names):
     renamed_df = df.toDF(*[old_to_new_names.get(c, c) for c in df.columns])
     return renamed_df
 
+def rename_columns(df, old_name, new_name):
+    renamed_df = df.withColumnRenamed(old_name, new_name)
+    return renamed_df
+
 # Define the function to process the client data
-@click.command()
-@click.option('--dataset_one_path', type=click.Path(exists=True), help='Path to dataset one CSV file')
-@click.option('--dataset_two_path', type=click.Path(exists=True), help='Path to dataset two CSV file')
-@click.option('--countries', type=click.STRING, multiple=True, default=[], help='Comma-separated list of countries to filter')
+# @click.command()
+# @click.option('--dataset_one_path', type=click.Path(exists=True), help='Path to dataset one CSV file')
+# @click.option('--dataset_two_path', type=click.Path(exists=True), help='Path to dataset two CSV file')
+# @click.option('--countries', type=click.STRING, multiple=True, default=[], help='Comma-separated list of countries to filter')
 def process_client_data(dataset_one_path, dataset_two_path, countries):
     # Load the client datasets
-    countries = list(countries)
-    print(countries)
+    # countries = list(countries)
+    # print(countries)
     dataset_one = spark.read.csv(dataset_one_path, header=True)
     dataset_two = spark.read.csv(dataset_two_path, header=True)
     logging.info('loading dataset')
     # Filter data by country
     dataset_one_filtered = filter_by_country(dataset_one, countries)
-    
+    dataset_one_filtered = rename_columns(dataset_one_filtered, 'id', 'client_identifier')
     # Remove personal identifiable information from dataset_one (excluding emails)
     dataset_one_filtered = dataset_one_filtered.drop('name', 'address', 'phone')
     
@@ -49,11 +53,11 @@ def process_client_data(dataset_one_path, dataset_two_path, countries):
     dataset_two = dataset_two.drop('credit_card_number')
     
     # Join the datasets using the id field
-    joined_df = dataset_one_filtered.join(dataset_two, 'id', 'inner')
+    joined_df = dataset_one_filtered.join(dataset_two, dataset_one_filtered.client_identifier == dataset_two.id, 'inner')
     
     # Rename columns
-    column_mapping = {'id': 'client_identifier', 'btc_a': 'bitcoin_address', 'cc_t': 'credit_card_type'}
-    joined_df_renamed = rename_columns(joined_df, column_mapping)
+    # column_mapping = {'btc_a': 'bitcoin_address', 'cc_t': 'credit_card_type'}
+    joined_df_renamed = rename_columns(joined_df, 'btc_a', 'bitcoin_address')
     
     
     return joined_df_renamed
@@ -74,17 +78,18 @@ def run_tests(result_df):
 #     run_tests()
 
 # Example usage
-if __name__ == "__main__":
-    result_df = process_client_data()
-    print(result_df)
-    # Display the result
-    # result_df.show()
-    run_tests(result_df)
+# if __name__ == "__main__":
+    result_df = process_client_data('dataset_one.csv', 'dataset_two.csv', ['Netherlands', 'United Kingdom'])
+    result_df.show(truncate=False)
+#     print(result_df)
+#     # Display the result
+#     # result_df.show()
+#     # run_tests(result_df)
 
-    # Log an info message
-    logging.info('Starting the data processing...')
+#     # Log an info message
+#     logging.info('Starting the data processing...')
 
-    # Save the resulting dataset in the client_data directory
-    output_path = "result_dataset2.csv"
-    result_df.write.csv(output_path, header=True, mode="overwrite")
+#     # Save the resulting dataset in the client_data directory
+#     output_path = "result_dataset2.csv"
+#     result_df.write.csv(output_path, header=True, mode="overwrite")
 
