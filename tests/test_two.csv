@@ -1,4 +1,4 @@
-'id', 'btc_a', 'cc_t', 'cc_n'
-32, '12sxmYnPcADAXw1YkxdapRsft2PwHZke7A', 'maestro', '50387077934280351'
-36, '15X53Z9B9jUNrvFpbr7D554uSc5RL7Pnkg', 'diners-club-international', '36423633151016'
-39, '1HTwtuDq4sujd4RVZ4RbfVY4j3A31wyuNy', 'jcb', '3553603785705092'
+id,btc_a,cc_t,cc_n
+32,12sxmYnPcADAXw1YkxdapRsft2PwHZke7A,maestro,50387077934280351
+36,15X53Z9B9jUNrvFpbr7D554uSc5RL7Pnkg,diners-club-international,36423633151016
+39,1HTwtuDq4sujd4RVZ4RbfVY4j3A31wyuNy,jcb,3553603785705092

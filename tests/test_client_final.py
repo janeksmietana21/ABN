@@ -33,15 +33,11 @@ def test_process_data(spark):
     actual_df = process_data('test_one.csv', 'test_two.csv', ['United Kingdom', 'Netherlands'])
 
     expected_data = [
-        (32, 'wbamfordv@t-online.de', 'United Kingdom', '12sxmYnPcADAXw1YkxdapRsft2PwHZke7A', 'maestro'),
-        (36, 'dbuckthorpz@tmall.com', 'Netherlands', '15X53Z9B9jUNrvFpbr7D554uSc5RL7Pnkg', 'diners-club-international')
+        ('32', 'wbamfordv@t-online.de', 'United Kingdom', '12sxmYnPcADAXw1YkxdapRsft2PwHZke7A', 'maestro'),
+        ('36', 'dbuckthorpz@tmall.com', 'Netherlands', '15X53Z9B9jUNrvFpbr7D554uSc5RL7Pnkg', 'diners-club-international')
     ]
 
-    expected_df = spark.createDataFrame(expected_data, ['client_identifier', 'email', 'country', 'bitcoin_address',
-                                                        'credit_card_type'])
+    expected_df = spark.createDataFrame(expected_data, ['client_identifier', 'email', 'country', 'bitcoin_address', 'credit_card_type'])
     assert_df_equality(actual_df, expected_df)
 
-
-
 test_process_data(spark)
-
